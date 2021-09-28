@@ -36,16 +36,6 @@ function App() {
         >
           Clear
         </button>
-        <button
-          className="button is-large"
-          onClick={() => {
-            const item = storage.getItem("textarea-input");
-            console.log(item);
-            setText(item);
-          }}
-        >
-          Get
-        </button>
       </div>
     </div>
   );
